@@ -4,7 +4,7 @@ import "./SchemeList.css";
 
 
 
-const SchemeList = () => {
+const SchemeList = ({ schemes, loading, error }) => {
   if (loading) {
     return <p className="schemelist-loading">Fetching schemes...</p>;
   }

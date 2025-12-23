@@ -1,0 +1,24 @@
+.schemelist-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.schemelist-loading,
+.schemelist-error,
+.schemelist-empty {
+  text-align: center;
+  padding: 20px;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.schemelist-error {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+.schemelist-empty {
+  color: #777;
+}

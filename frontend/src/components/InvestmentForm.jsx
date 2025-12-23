@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./InvestmentForm.css";
 
 export default function InvestmentForm({ onSubmit }) {
-  const [formData, setFormData] = useState<FormData>({ userInput: "" });
+  const [formData, setFormData] = useState({ userInput: "" });
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
