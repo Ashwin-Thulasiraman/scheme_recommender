@@ -1,6 +1,6 @@
 import React from "react";
 import SchemeCard from "./SchemeCard";
-import "./SchemeList.css";
+
 
 
 

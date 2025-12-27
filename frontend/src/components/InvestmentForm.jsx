@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./InvestmentForm.css";
+
 
 export default function InvestmentForm({ onSubmit }) {
   const [formData, setFormData] = useState({ userInput: "" });
